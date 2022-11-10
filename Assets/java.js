@@ -50,11 +50,11 @@ function getPrompts() {
         choiceArr = choiceArr.concat(upperCase)
     }
 
-    if (confirm("Would you like your password to include numbers?")) {
+    if (confirm("Would you like your password to include #numbers?")) {
         choiceArr = choiceArr.concat(numbers)
     }
 
-    if (confirm("Would you like your password to include Special Characters?")) {
+    if (confirm("Would you like your password to include <Special Characters>?")) {
         choiceArr = choiceArr.concat(specialCharacters)
     }
     return true;
